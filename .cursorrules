@@ -1,0 +1,140 @@
+# Cursor Rules for AI-Assisted Development
+
+## Project Overview
+This workspace is for development projects. Follow these guidelines when providing code assistance.
+
+## Code Style & Standards
+
+### General Principles
+- Write clean, readable, and maintainable code
+- Follow language-specific best practices and conventions
+- Use meaningful variable and function names
+- Add appropriate comments for complex logic
+- Keep functions focused and single-purpose
+
+### Code Organization
+- Group related functionality together
+- Separate concerns appropriately (UI, business logic, data access)
+- Use consistent file and folder naming conventions
+- Maintain a logical project structure
+
+### Documentation
+- Include README files for major components
+- Document API endpoints and their parameters
+- Add inline comments for complex algorithms
+- Provide usage examples where helpful
+
+## Development Practices
+
+### Error Handling
+- Implement proper error handling and validation
+- Use try-catch blocks appropriately
+- Provide meaningful error messages
+- Log errors for debugging purposes
+
+### Testing
+- Write unit tests for critical functionality
+- Include integration tests for API endpoints
+- Ensure test coverage for edge cases
+- Use descriptive test names
+
+### Security
+- Validate and sanitize all user inputs
+- Use parameterized queries to prevent SQL injection
+- Implement proper authentication and authorization
+- Follow OWASP security guidelines
+
+### Performance
+- Optimize database queries
+- Use caching where appropriate
+- Minimize unnecessary API calls
+- Implement pagination for large datasets
+
+## File Structure Guidelines
+
+### Frontend (if applicable)
+- Organize components by feature or page
+- Use consistent naming for CSS classes
+- Implement responsive design principles
+- Follow accessibility guidelines (WCAG)
+
+### Backend (if applicable)
+- Separate routes, controllers, and services
+- Use middleware for common functionality
+- Implement proper logging and monitoring
+- Follow RESTful API design principles
+
+### Database (if applicable)
+- Use meaningful table and column names
+- Implement proper indexing strategies
+- Follow normalization principles
+- Document database schema changes
+
+## Code Review Standards
+
+### Before Submitting
+- Ensure all tests pass
+- Check for linting errors
+- Verify code follows style guidelines
+- Test functionality manually
+
+### Review Checklist
+- Code readability and maintainability
+- Error handling and edge cases
+- Performance considerations
+- Security implications
+- Test coverage adequacy
+
+## Communication Guidelines
+
+### When Providing Code
+- Explain the reasoning behind solutions
+- Suggest alternatives when appropriate
+- Point out potential improvements
+- Ask clarifying questions when needed
+
+### Code Explanations
+- Use clear, concise language
+- Provide context for decisions
+- Include relevant documentation links
+- Highlight important considerations
+
+## Technology-Specific Guidelines
+
+### JavaScript/TypeScript
+- Use ES6+ features when appropriate
+- Implement proper type checking
+- Follow async/await patterns
+- Use modern framework best practices
+
+### Python
+- Follow PEP 8 style guidelines
+- Use type hints where beneficial
+- Implement proper exception handling
+- Use virtual environments for dependencies
+
+### Database
+- Use migrations for schema changes
+- Implement proper backup strategies
+- Monitor query performance
+- Use transactions appropriately
+
+## Continuous Improvement
+
+### Learning & Growth
+- Stay updated with best practices
+- Experiment with new approaches
+- Learn from code reviews
+- Share knowledge with team members
+
+### Code Quality
+- Refactor code regularly
+- Remove dead or unused code
+- Optimize performance bottlenecks
+- Maintain consistent coding standards
+
+## Notes
+- These rules are living guidelines that should evolve with the project
+- Always prioritize code quality and maintainability
+- When in doubt, ask for clarification
+- Consider the long-term impact of coding decisions 

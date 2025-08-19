@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import StockChart from './StockChart';
+import TickerTable from './TickerTable';
 
 interface MarketData {
   symbol: string;
@@ -123,7 +124,7 @@ export default function FinancialDashboard() {
         </div>
 
         {/* Charts Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
           {marketData.map((index) => (
             <StockChart
               key={index.symbol}
@@ -136,6 +137,11 @@ export default function FinancialDashboard() {
               changePercent={index.changePercent}
             />
           ))}
+        </div>
+
+        {/* Ticker Table */}
+        <div className="mb-8">
+          <TickerTable />
         </div>
 
         {/* Footer Info */}

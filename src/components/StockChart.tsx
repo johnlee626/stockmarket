@@ -11,6 +11,7 @@ import {
   Tooltip,
   Legend,
   Filler,
+  TooltipItem,
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 
@@ -82,7 +83,7 @@ export default function StockChart({
         borderColor: color,
         borderWidth: 1,
         callbacks: {
-          label: function(context: unknown) {
+          label: function(context: TooltipItem<'line'>) {
             return `${title}: $${context.parsed.y.toFixed(2)}`;
           },
         },

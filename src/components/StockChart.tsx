@@ -82,7 +82,7 @@ export default function StockChart({
         borderColor: color,
         borderWidth: 1,
         callbacks: {
-          label: function(context: any) {
+          label: function(context: unknown) {
             return `${title}: $${context.parsed.y.toFixed(2)}`;
           },
         },
